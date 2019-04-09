@@ -1,0 +1,22 @@
+
+spring:
+  application:
+    name: paribas-app
+
+# Datasource configuration
+  datasource:
+    url: jdbc:postgresql://localhost:5432/paribasdb
+    password: pylypchenko
+    username: pylypchenko
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate.format_sql: true
+      hibernate.jdbc.lob.non_contextual_creation: true
+      hibernate.generate_statistics: true
+      hibernate.jdbc.batch_size: 25
+    hibernate:
+      ddl-auto: none
+

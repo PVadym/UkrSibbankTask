@@ -1,0 +1,1 @@
+CREATE  UNIQUE INDEX client_inn  ON client(inn);
