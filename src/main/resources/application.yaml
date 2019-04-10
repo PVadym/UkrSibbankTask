@@ -16,7 +16,7 @@ spring:
       hibernate.format_sql: true
       hibernate.jdbc.lob.non_contextual_creation: true
       hibernate.generate_statistics: true
-      hibernate.jdbc.batch_size: 25
+      hibernate.jdbc.batch_size: 200
     hibernate:
       ddl-auto: none
 
